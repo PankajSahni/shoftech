@@ -22,30 +22,30 @@ h3.color1 {padding:0 0 7px 0}
 p {padding-bottom:24px}
 /* ============================= header ====================== */
 header {height:179px}
-#page1 header {height:662px}
+#page1 header {height:400px}
 /*#logo {display:block;text-indent:-9999px;background:url(../images/logo.png) 0 0 no-repeat;width:240px;height:44px}*/
 #logo_name {font: 39px Arial, Helvetica, sans-serif; color:#777A70;}
 #logo_com {font: 39px Arial, Helvetica, sans-serif; color: #777A70;}
 #search {float:right;padding:50px 10px 0 0 }
 #search .bg {background:url(../images/search.png) 0 0 no-repeat;width:220px;height:23px}
 #search .input {background:none;padding:3px 13px;font:14px Arial, Helvetica, sans-serif;color:#000;height:17px;width:194px;margin:0}
-#menu  {padding-top:30px}
-#menu > li  {float:left;padding-right:5px}
+#menu  {padding-top:5px}
+#menu > li  {float:left;padding-right:5px; height: 5px;}
 #menu .last {padding-right:0px}
-#menu > li > a {width:188px;display:block;font-size:17px;color:#fff;text-transform:uppercase;font-weight:400;height:61px;line-height:58px;border-top:1px solid #1f1f1f;background:#777A70;text-align:center;border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;position:relative}
+#menu > li > a {width:188px;display:block;font-size:17px;color:#fff;text-transform:uppercase;font-weight:400;height:40px;line-height:58px;border-top:1px solid #1f1f1f;background:#777A70;text-align:center;border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;position:relative}
 #menu > li > a:hover, #menu > .active > a {background:#F5AA2A;border-color:#9cba2f}
 #menu > li > a span {display:block;position:relative}
-#slider {position:absolute;top:209px;left:0;width:100%;height:453px;overflow:hidden;z-index:1}
+#slider {position:absolute;top:145px;left:0;width:100%;height:300px;overflow:hidden;z-index:1}
 .items {display:none}
 .pagination {position:absolute;bottom:82px;right:274px;z-index:2}
 .pagination li {float:left;padding-left:3px}
 .pagination a {display:block;width:17px;height:17px;background:url(../images/buttons.png) right 0 no-repeat;text-indent:-9999px}
 .pagination a:hover, .pagination .current a {background-position:left}
-.banner {position:absolute;top:87px;z-index:2;right:32px;color:#a0a0a0;width:350px}
+.banner {position:absolute;top:87px;z-index:2;right:32px;color:#a0a0a0;width:350px; height: 300px;}
 .title {font-size:47px;line-height:1.2em;letter-spacing:-2px;display:block;padding-bottom:9px}
 .title .color2 {color:#000}
 .title span {display:block;margin-top:-17px}
-.banner .button1 {font-size:28px;padding:0 24px;color:#777A70; height:49px;line-height:46px;margin-top:-1px;letter-spacing:-2px}
+.banner .button1 {font-size:28px;padding:0 24px;color:#777A70; line-height:46px;margin-top:-1px;letter-spacing:-2px; height: 300px;}
 .banner .button1:hover {background:#090909;color:#fff}
 .signature {text-align:right;display:block;color:#5f870e;line-height:20px;padding-top:6px}
 .signature strong {display:block;color:#fff}
