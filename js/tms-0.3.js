@@ -24,7 +24,7 @@
 		changeEv:'click',
 		blocksX:1,
 		blocksY:1,
-		preset:'simpleFade',
+		preset:'gSlider',
 		duration:0,
 		easing:'linear',
 		way:'lines',

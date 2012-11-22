@@ -3,8 +3,8 @@
 		presets:{
 			zoomer:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"zoomer",k:1.8,crds:{bottom:0,right:0}},
 			fadeThree:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"fadeThree"},
-			simpleFade:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"fade"},
-			gSlider:{"reverseWay":false,"duration":400,"interval":40,"blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"gSlider"},
+			simpleFade:{"reverseWay":false,"duration":500,"interval":"1","blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"fade"},
+			gSlider:{"reverseWay":false,"duration":40,"interval":40,"blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"gSlider"},
 			vSlider:{"reverseWay":false,"duration":400,"interval":40,"blocksX":"1","blocksY":"1","easing":"","way":"lines","anim":"vSlider"},
 			slideFromLeft:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"easeOutBack","way":"lines","anim":"slideFromLeft"},
 			slideFromTop:{"reverseWay":false,"duration":"1000","interval":"1","blocksX":"1","blocksY":"1","easing":"easeOutBack","way":"lines","anim":"slideFromTop"},
