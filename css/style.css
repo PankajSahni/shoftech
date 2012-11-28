@@ -19,6 +19,8 @@ h1 {padding:39px 0 0 9px;float:left}
 h2 {font-size:33px;color:#777A70;font-weight:700;line-height:1.2em;padding:30px 0 11px 0;letter-spacing:-1px}
 h3 {font-size:27px;color:#fff;font-weight:700;line-height:1.2em;padding:33px 0 17px 0;letter-spacing:-1px}
 h3.color1 {padding:0 0 7px 0}
+h4 {font-size:18px;color:#fff;font-weight:700;line-height:1.2em;padding:33px 0 17px 0;letter-spacing:-1px}
+h4.color1 {padding:0 0 7px 0}
 p {padding-bottom:24px}
 /* ============================= header ====================== */
 header {height:179px}
@@ -52,7 +54,7 @@ header {height:179px}
 /* ============================= content ====================== */
 #content, #content2 {padding:0 20px}
 #content {padding-bottom:9px}
-#content2 {padding-bottom:21px}
+#content2 {padding-bottom:21px;width: 100%;}
 .pad_bot1 {padding-bottom:12px}
 .marg_right1 {margin-right:40px}
 .marg_right2 {margin-right:20px}
@@ -65,7 +67,7 @@ header {height:179px}
 .list1 a {color:#808080;padding-left:15px;background:url(../images/marker_1.png) 0 5px no-repeat}
 .list1 a:hover {color:#5f870e}
 .list2{}
-.list2 li {padding-left:15px;background:url(../images/marker_1.png) 0 9px no-repeat;padding-bottom:12px}
+.list2 li {padding-left:15px;background:url(../images/marker_1.png) 0 9px no-repeat;padding-bottom:0px}
 figure {padding-top:2px}
 .dropcap_1 {float:left;background:url(../images/dropcap_1.png) 0 0 no-repeat;width:45px;height:45px;text-align:center;font-size:33px;line-height:42px;color:#fff;font-weight:700;margin-right:15px;margin-top:2px;margin-bottom:10px}
 .address span {float:left;width:88px}
