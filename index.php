@@ -20,7 +20,7 @@ query_posts('showposts=2');
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
         <script type="text/javascript" src="js/atooltip.jquery.js"></script>
         <!--[if lt IE 9]>
-		<script type="text/javascript" src="js/html5.js"></script>
+                <script type="text/javascript" src="js/html5.js"></script>
 		<link rel="stylesheet" href="css/ie.css" type="text/css" media="all">
 		<![endif]-->
         <!--[if lt IE 7]>
@@ -55,36 +55,36 @@ query_posts('showposts=2');
                         <li>
                             <img src="images/seo.jpg" alt="">
                             <!--<div class="banner">
-								<span class="title"><span class="color2">We Have</span><span class="color1">Propositions</span><span>For Everybody</span></span>
+                                                                <span class="title"><span class="color2">We Have</span><span class="color1">Propositions</span><span>For Everybody</span></span>
 
 							</div>-->
                         </li>
                         <li>
                             <img src="images/ppc.jpg" alt="">
                             <!--<div class="banner">
-								<span class="title"><span class="color2">Fresh Ideas</span><span class="color1">For Growing</span><span>Your Business</span></span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
+                                                                <span class="title"><span class="color2">Fresh Ideas</span><span class="color1">For Growing</span><span>Your Business</span></span>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor.</p>
 								<a href="#" class="button1">Read More</a>
 							</div>-->
                         </li>
                         <li>
                             <img src="images/web_design.jpg" alt="">
                             <!--<div class="banner">
-								<span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
+                                                                <span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
 
 							</div>-->
                         </li>
                         <li>
                             <img src="images/mobile_app.jpg" alt="">
                             <!--<div class="banner">
-								<span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
+                                                                <span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
 
 							</div>-->
                         </li>
                         <li>
                             <img src="images/smo.png" alt="Social Media Optimization">
                             <!--<div class="banner">
-								<span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
+                                                                <span class="title"><span class="color2">The Best</span><span class="color1">You Can Find</span><span>On The Web</span></span>
 
 							</div>-->
                         </li>
@@ -144,28 +144,31 @@ query_posts('showposts=2');
                 <div class="col1">
                     <h2>Client Reviews</h2>
                     <div style="height: 500px;">
-                    <ul id="ticker">
-                        <li>
-                            1)Testimonial one.
-                        </li>
-                        <li>
+                        <ul id="ticker">
+                            <li>
+                                1)Testimonial one.
+                            </li>
+                            <li>
 			   2)Testimonial two.
-                        </li>
-                        <li>
-                           3)Testimonial two.
-                        </li>
-                        <li>
-                            4)Testimonial two.
-                        </li>
-                    </ul>
-                        </div>
+                            </li>
+                            <li>
+                                3)Testimonial two.
+                            </li>
+                            <li>
+                                4)Testimonial two.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <?php while (have_posts()): the_post(); ?>
-<h2><?php the_title(); ?></h2>
-<?php the_excerpt(); ?>
-<img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"/>
-<p><a href="<?php the_permalink(); ?>">Read more...</a></p>
-<?php endwhile; ?>
+                <table><tr>
+                <?php while (have_posts ()): the_post(); ?>
+                        <td><h2><?php the_title(); ?></h2>
+                <?php the_excerpt(); ?>
+                    <img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
+                         width="200px" height="200px"/>
+                    <p><a href="<?php the_permalink(); ?>">Read more...</a></p></td>
+                <?php endwhile; ?>
+                    </tr></table>
             </div>
         </div>
         <div class="bg1">
