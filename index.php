@@ -160,8 +160,10 @@ query_posts('showposts=2');
                         </ul>
                     </div>
                 </div>
-                <h3>Latest Blog Post</h3>
-                <table><tr>
+                
+                <table>
+                    <tr><td colspan="2"><span style="font-size:14px;font-weight:700;">
+                                Latest Blog Post</span></td></tr><tr>
                 <?php while (have_posts ()): the_post(); ?>
                         <td><b><?php the_title(); ?></b>
                             <table><tr>
@@ -172,7 +174,7 @@ query_posts('showposts=2');
                         <?php endif;?></td>
                         <td><?php the_excerpt(); ?></td>
                     </tr></table>
-                    <p><a href="<?php the_permalink(); ?>">Read more...</a></p></td>
+                    <!--<p><a href="<?php //the_permalink(); ?>">Read more...</a></p></td>-->
                 <?php endwhile; ?>
                     </tr></table>
             </div>
@@ -180,7 +182,7 @@ query_posts('showposts=2');
         <div class="bg1">
             <div class="main">
                 <article id="content2">
-                    <div class="wrapper">
+                    <!--<div class="wrapper">
                         <!--<div class="col2 marg_right1">
                             <h3>Welcome to Our Company!</h3>
                             <div class="wrapper">
@@ -190,7 +192,7 @@ query_posts('showposts=2');
                             </div>
                             <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minusi quod maxime placeat facere possimus omnis voluptas assumenda est omnis dolor repellendus. Temporibus autem quibusdam aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae molestiae.</p>
                             <a href="#" class="button1">Read More</a>
-                        </div>-->
+                        </div>
 
                         <div class="col1" style="width:240px;">
                             <h4>Publications</h4>
@@ -237,7 +239,7 @@ query_posts('showposts=2');
                     </div>
                 </article>
             </div>
-        </div>
+        </div>-->
         <div class="main">
             <!--content end-->
             <!--footer -->
