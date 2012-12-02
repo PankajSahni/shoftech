@@ -160,12 +160,16 @@ query_posts('showposts=2');
                         </ul>
                     </div>
                 </div>
+                <h3>Latest Blog Post</h3>
                 <table><tr>
                 <?php while (have_posts ()): the_post(); ?>
                         <td><b><?php the_title(); ?></b>
                             <table><tr>
-                        <td><img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
-                         width="80px" height="80px"/></td>
+                        <td>
+                            <?php if(catch_that_image() != ""):?>
+                            <img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
+                         width="80px" height="80px"/>
+                        <?php endif;?></td>
                         <td><?php the_excerpt(); ?></td>
                     </tr></table>
                     <p><a href="<?php the_permalink(); ?>">Read more...</a></p></td>
