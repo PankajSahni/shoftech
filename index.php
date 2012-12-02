@@ -2,7 +2,7 @@
 // Include WordPress
 define('WP_USE_THEMES', false);
 require('./blog/wp-load.php');
-query_posts('showposts=1');
+query_posts('showposts=2');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -163,6 +163,7 @@ query_posts('showposts=1');
                 <?php while (have_posts()): the_post(); ?>
 <h2><?php the_title(); ?></h2>
 <?php the_excerpt(); ?>
+<img src="/thumb.php?src=<?php echo catch_that_image() ?>&w=200&zc=1&q=200" alt="<?php the_title(); ?>"/>
 <p><a href="<?php the_permalink(); ?>">Read more...</a></p>
 <?php endwhile; ?>
             </div>
