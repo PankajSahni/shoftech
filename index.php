@@ -163,7 +163,7 @@ query_posts('showposts=2');
                 <?php while (have_posts()): the_post(); ?>
 <h2><?php the_title(); ?></h2>
 <?php the_excerpt(); ?>
-<img src="/thumb.php?src=<?php echo catch_that_image() ?>&w=200&zc=1&q=200" alt="<?php the_title(); ?>"/>
+<img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"/>
 <p><a href="<?php the_permalink(); ?>">Read more...</a></p>
 <?php endwhile; ?>
             </div>
