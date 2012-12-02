@@ -162,10 +162,12 @@ query_posts('showposts=2');
                 </div>
                 <table><tr>
                 <?php while (have_posts ()): the_post(); ?>
-                        <td><h2><?php the_title(); ?></h2>
-                <?php the_excerpt(); ?>
-                    <img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
-                         width="125px" height="125px"/>
+                        <td><b><?php the_title(); ?></b>
+                            <table><tr>
+                        <td><img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
+                         width="25px" height="25px"/></td>
+                        <td><?php the_excerpt(); ?></td>
+                    </tr></table>
                     <p><a href="<?php the_permalink(); ?>">Read more...</a></p></td>
                 <?php endwhile; ?>
                     </tr></table>
