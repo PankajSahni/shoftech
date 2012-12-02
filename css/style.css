@@ -54,7 +54,7 @@ header {height:179px}
 /* ============================= content ====================== */
 #content, #content2 {padding:0 20px}
 #content {padding-bottom:9px}
-#content2 {padding-bottom:21px;width: 100%;}
+#content2 {padding-bottom:0px;width: 100%;}
 .pad_bot1 {padding-bottom:12px}
 .marg_right1 {margin-right:40px}
 .marg_right2 {margin-right:20px}
@@ -73,7 +73,7 @@ figure {padding-top:2px}
 .address span {float:left;width:88px}
 .address a {text-decoration:underline}
 /* ============================= footer ====================== */
-footer  {padding:49px 20px 0;height:98px}
+footer  {padding:49px 20px 0;height:57px}
 footer a {color:#808080}
 footer a:hover {color:#fff}
 #icons {width:184px;float:right}
