@@ -1,3 +1,9 @@
+<?php
+// Include WordPress
+define('WP_USE_THEMES', false);
+require('./blog/wp-load.php');
+query_posts('showposts=1');
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -154,28 +160,11 @@
                     </ul>
                         </div>
                 </div>
-                <h2>Services Overview</h2>
-                <div class="col1 marg_right1">
-                    <div class="wrapper">
-                        <figure class="left marg_right2"><img src="images/page4_img1.jpg" alt=""></figure>
-                        <p><span class="color1">Strategic Planning</span><br>
-								Non provident, similique sunt in culpa qui officia deserunt mollitia animi. Et harum quidem rerum facilis.</p>
-                    </div>
-                </div>
-                <div class="col1 marg_right1">
-                    <div class="wrapper">
-                        <figure class="left marg_right2"><img src="images/page4_img1.jpg" alt=""></figure>
-                        <p><span class="color1">Strategic Planning</span><br>
-								Non provident, similique sunt in culpa qui officia deserunt mollitia animi. Et harum quidem rerum facilis.</p>
-                    </div>
-                </div>
-                <div class="col1 marg_right1">
-                    <div class="wrapper">
-                        <figure class="left marg_right2"><img src="images/page4_img1.jpg" alt=""></figure>
-                        <p><span class="color1">Strategic Planning</span><br>
-								Non provident, similique sunt in culpa qui officia deserunt mollitia animi. Et harum quidem rerum facilis.</p>
-                    </div>
-                </div>
+                <?php while (have_posts()): the_post(); ?>
+<h2><?php the_title(); ?></h2>
+<?php the_excerpt(); ?>
+<p><a href="<?php the_permalink(); ?>">Read more...</a></p>
+<?php endwhile; ?>
             </div>
         </div>
         <div class="bg1">
