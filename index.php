@@ -165,7 +165,7 @@ query_posts('showposts=2');
                         <td><b><?php the_title(); ?></b>
                             <table><tr>
                         <td><img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>"
-                         width="25px" height="25px"/></td>
+                         width="80px" height="80px"/></td>
                         <td><?php the_excerpt(); ?></td>
                     </tr></table>
                     <p><a href="<?php the_permalink(); ?>">Read more...</a></p></td>
